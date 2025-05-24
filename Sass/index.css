@@ -51,7 +51,7 @@ body {
 }
 
 .nav-link.active {
-  background-color: #cbe14e;
+  background-color: #d9f43e;
   color: white;
 }
 
@@ -88,8 +88,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row-reverse;
   padding: 15px 30px;
-  background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: calc(100% - 70px); /*The element's width should be 100% of the parent's width minus 70 pixels.*/
@@ -127,11 +127,15 @@ body {
   color: #666;
 }
 
+.search-container {
+  margin-right: auto;
+}
+
 .search-container input {
   padding: 8px 15px;
   border: 1px solid #ddd;
-  border-radius: 20px;
-  width: 300px;
+  border-radius: 15px;
+  width: 250px;
   outline: none;
 }
 
@@ -145,11 +149,4 @@ main {
 .sidebar.expanded ~ main {
   margin-left: 250px;
   width: calc(100% - 250px);
-}
-
-.container {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }/*# sourceMappingURL=index.css.map */
