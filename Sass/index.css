@@ -149,4 +149,57 @@ main {
 .sidebar.expanded ~ main {
   margin-left: 250px;
   width: calc(100% - 250px);
+}
+
+.text {
+  display: inline-block;
+}
+
+.dashboard {
+  padding: 20px;
+  width: 100%;
+}
+
+.dashboard h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.boxes-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.box {
+  background: whitesmoke;
+  border-radius: 8px;
+  padding: 18px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box .title {
+  font-size: 14px;
+  text-align: center;
+  color: #969494;
+  margin: 0 0 10px 0;
+}
+
+.box .number {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin: 5px 0;
+}
+
+.box .des {
+  font-size: 14px;
+  color: #777;
+  margin-top: auto;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
