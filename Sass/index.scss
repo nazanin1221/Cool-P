@@ -76,6 +76,7 @@ body {
     align-items: center;
     flex-direction: row-reverse;
     padding: 15px 30px;
+    background-color: #f5f7fa;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     position: fixed;
     width: calc(100% - 70px);/*The element's width should be 100% of the parent's width minus 70 pixels.*/
@@ -179,4 +180,40 @@ display:inline-block;
     color: #777;
     margin-top: auto;
     text-align: center;
+}
+.Reports{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
+
+.sales-report{
+     background:whitesmoke;
+    border-radius: 8px;
+    padding: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 350px;
+    width: 800px; 
+    display: flex;
+    flex-direction:column;
+}
+.Picture-sales{
+    height: 300px;
+    width: 800px;
+}
+.most-sales{
+      background:whitesmoke;
+    border-radius: 8px;
+    padding: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 350px;
+    width: 370px; 
+}
+
+.picture-most{
+    height:350px;
+    width: 300px;
+    overflow: hidden;
+    margin-left:10px;
+    margin-bottom: 60px;
 }
