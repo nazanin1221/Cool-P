@@ -82,6 +82,36 @@ body {
   z-index: 1001;
 }
 
+.user_profile {
+  text-align: center;
+  padding: 15px;
+}
+
+.user_image {
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.user_image img {
+  border-radius: 50%; /* Make the image circular */
+  width: 100%; /* Make sure the image fills the container */
+  height: 100%; /* Make sure the image fills the container */
+}
+
+.user_name {
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+}
+
+.user_email {
+  font-size: 0.9em;
+  color: rgb(255, 252, 252);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
