@@ -13,7 +13,7 @@ body {
 .sidebar {
      width: 70px;
     height: 100vh;
-    background-color: #0b5e45;
+    background-color: #053a50;
     position: fixed;
     transition: all 0.3s;
     overflow: hidden;
@@ -39,11 +39,11 @@ body {
     transition: all 0.3s;}
         
 .nav-link:hover {
-    background-color: #c1e348;
+    background-color: rgb(197, 231, 78);
     color: white;}
         
 .nav-link.active {
-    background-color: #c1e348;
+    background-color:#a7c307;
     color: white;}
         
 .nav-link i {
