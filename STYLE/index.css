@@ -460,7 +460,55 @@ main {
 
 .name-head, .name-headd, .name-headdd {
   font-size: 10px;
+  font-weight: 700;
   color: #949898;
   min-width: 120px;
   margin-top: 2px;
+}
+
+.text-row {
+  display: flex;
+  gap: juster;
+}
+
+.text span {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.num_yellow {
+  color: #FFD700;
+}
+
+.num_blue {
+  color: #4169E1;
+}
+
+.num_gray {
+  color: #808080;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.colors div {
+  width: 130px;
+  height: 15px;
+  border-radius: 4px;
+}
+
+.yellow {
+  background-color: #FFD700;
+}
+
+.blue {
+  background-color: #4169E1;
+}
+
+.gray {
+  background-color: #808080;
 }/*# sourceMappingURL=index.css.map */
