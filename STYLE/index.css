@@ -219,13 +219,25 @@ main {
   height: 150px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+.card-icon {
+  position: absolute;
+  top: 38px;
+  left: 40px;
+  font-size: 30px;
+  color: #34c759;
 }
 
 .box .title {
   font-size: 14px;
   text-align: center;
   color: #969494;
-  margin: 0 0 10px 0;
+  margin-top: 25px;
 }
 
 .box .number {
@@ -233,14 +245,44 @@ main {
   font-weight: bold;
   text-align: center;
   color: #333;
-  margin: 3px 0;
 }
 
 .box .des {
   font-size: 14px;
-  color: #777;
   margin-top: auto;
+  color: #777;
   text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-icon .fa-shopping-bag {
+  color: rgb(162, 144, 41);
+}
+
+.card-icon .fa-credit-card {
+  color: #4169E1;
+}
+
+.card-icon .fa-dollar-sign {
+  color: rgb(171, 25, 171);
+}
+
+.card-icon .fa-chart-bar {
+  color: rgb(65, 5, 103);
 }
 
 .Reports {
