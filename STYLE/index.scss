@@ -346,14 +346,13 @@ main {
     padding: 30px;
     margin-bottom: 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width:480px;
-    height:490px;}
+    height:420px;
+    width: 800px; }
 
     .container-wrapper {
     display: flex;
     gap: 20px;
-    align-items: flex-start;
-    margin:2px;}
+    align-items: flex-start;}
 
   .table {
     font-family: Arial, sans-serif;
@@ -497,13 +496,12 @@ main {
     background:whitesmoke;
     border-radius: 8px;
     padding: 30px;
-    margin: 10px;
+    margin:7px;
     margin-bottom: 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 350px;
-    height:300px;
+    height: 350px;
+    width: 940px; 
     overflow: hidden;
-    margin-left:10px;
     margin-bottom: 60px;}
 
   .table-two {
